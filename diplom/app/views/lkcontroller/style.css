@@ -1,0 +1,81 @@
+.back {
+    margin-left: 10%;
+}
+
+.back a:hover {
+    color: #fa6166;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.section.lk {
+    margin-bottom: 30px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #eee;
+}
+
+.accordion-button:focus {
+    border-color: #fa6166;
+}
+
+@media (min-width: 900px) {
+    .accordion {
+        margin: 0 auto;
+        width: 900px;
+    }
+}
+
+.accordion-body {
+    margin-left: 10%;
+}
+
+.main_btn {
+    justify-content: center;
+    margin: 10px;
+}
+
+.input-group {
+    margin-top: 20px;
+    width: 80%;
+}
+
+.input-group-text {
+    width: 35%;
+    padding-left: 25px;
+}
+
+.order-separator {
+    border-top: 1px solid #ccc;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.order-details {
+    margin-left: 10%;
+}
+
+.accordion-body img,
+.order-details img {
+    padding: 10px;
+    width: 15%;
+    height: 25%;
+}
+
+.cards_details {
+    padding: 10px;
+}
+
+.total-cost {
+    text-align: right;
+    margin-right: 10%;
+    font-weight: bold;
+}
+
+.cards {  
+    display: flex;
+}
